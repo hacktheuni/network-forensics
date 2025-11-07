@@ -20,3 +20,4 @@ It extracts IPs, protocols, and suspicious patterns for quick analysis — ideal
 git clone https://github.com/hacktheuni/network-forensics.git
 cd network-forensics
 pip install -r requirements.txt
+python3 analyzer.py sample_data/example.pcap
