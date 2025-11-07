@@ -1,13 +1,3 @@
-"""
-Network Traffic Analysis for Cyber Forensics
-Description:
-  This script analyzes a .pcap file to extract useful forensic insights:
-  - Top talkers (source/destination IPs)
-  - Protocol and port usage
-  - Suspicious behavior like frequent SYNs (possible scans)
-  - Saves reports to outputs/ folder
-"""
-
 import pyshark
 import pandas as pd
 from collections import Counter
